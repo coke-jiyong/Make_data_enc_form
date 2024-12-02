@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/utils.h
+stdio.h
+-
+
+/home/ubuntu/encrypt_data/src/utils.c
+utils.h
+/home/ubuntu/encrypt_data/src/utils.h
+

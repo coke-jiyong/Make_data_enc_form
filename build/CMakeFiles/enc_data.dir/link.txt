@@ -1,0 +1,2 @@
+/usr/bin/ar qc libenc_data.a  CMakeFiles/enc_data.dir/src/aes.c.o CMakeFiles/enc_data.dir/src/dec.c.o CMakeFiles/enc_data.dir/src/enc.c.o CMakeFiles/enc_data.dir/src/genRandom.c.o CMakeFiles/enc_data.dir/src/utils.c.o
+/usr/bin/ranlib libenc_data.a

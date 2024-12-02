@@ -1,0 +1,4 @@
+/home/ubuntu/encrypt_data/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/encrypt_data/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/encrypt_data/build/CMakeFiles/enc_test.dir
+/home/ubuntu/encrypt_data/build/CMakeFiles/enc_data.dir

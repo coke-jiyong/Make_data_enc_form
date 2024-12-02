@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/enc_test.dir/src/main.c.o  -o enc_test  libenc_data.a -lcrypto 
