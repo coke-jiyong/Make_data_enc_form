@@ -18,8 +18,10 @@ int main(void) {
         free(key);
         return 0;
     }
-
+    len = file_len(data_file);
+    //printf("before len: %lu\n", len);
     uint8_t * enctypedData = enc_data(data_file , key , &len);
+    //printf("after len: %lu\n", len);
     if(enctypedData == NULL) {
         free(key);
         fclose(data_file);

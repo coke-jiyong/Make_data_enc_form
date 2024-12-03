@@ -35,7 +35,7 @@ uint8_t * enc_data(FILE* orig_file , uint8_t * key , size_t * len) {
     }
 
     pkcs7_padding(bytes, &cnt);
-
+    
 
     struct AES_ctx ctx;
     AES_init_ctx(&ctx, key);
@@ -43,7 +43,7 @@ uint8_t * enc_data(FILE* orig_file , uint8_t * key , size_t * len) {
         AES_ECB_encrypt(&ctx, bytes + i);
     }
     *len = cnt;
-    
+
     return bytes;
     // FILE* enc_data = open_file("./encdata", "wb");
     // if(enc_data == NULL) {

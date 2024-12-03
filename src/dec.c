@@ -12,6 +12,7 @@ static size_t remove_pkcs7_padding(unsigned char *data, size_t data_len) {
     for (int i = 1; i <= padding_value; i++) {
         if (data[data_len - i] != padding_value) return data_len;
     }
+    //printf("padding_len: %d\n", padding_value);
     return data_len - padding_value;
 }
 
